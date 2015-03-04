@@ -1,4 +1,4 @@
-package com.gofdp.construction.factoryMethod;
+package com.gofdp.construction.abstractFactory;
 
 import com.gofdp.construction.builder.ClamChowder;
 import com.gofdp.construction.builder.FishChowder;
@@ -8,9 +8,9 @@ import com.gofdp.construction.builder.HonoluluFishChowder;
 /**
  * adapted from http://www.fluffycat.com/
  */
-class HonoluluSoupFactoryMethodSubclass extends SoupFactoryMethod {
-    public String makeBuffetName() {
-        return "Honolulu Soup Buffet";
+class HonoluluConcreteSoupFactory extends AbstractSoupFactory {
+    public HonoluluConcreteSoupFactory() {
+        factoryLocation = "Honolulu";
     }
 
     public ClamChowder makeClamChowder() {

@@ -2,6 +2,9 @@ package com.gofdp.construction.factoryMethod;
 
 import com.gofdp.construction.builder.SoupBuffet;
 
+/**
+ * adapted from http://www.fluffycat.com/
+ */
 class SampleLauncher {
 
     public static void main(String[] args) {

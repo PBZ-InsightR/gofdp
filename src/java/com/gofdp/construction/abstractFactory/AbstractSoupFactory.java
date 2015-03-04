@@ -1,14 +1,15 @@
-package com.gofdp.construction.factoryMethod;
+package com.gofdp.construction.abstractFactory;
 
 import com.gofdp.construction.builder.*;
 
 /**
  * adapted from http://www.fluffycat.com/
  */
-class SoupFactoryMethod {
+abstract class AbstractSoupFactory {
+    String factoryLocation;
 
-    public SoupBuffet makeSoupBuffet() {
-        return new SoupBuffet();
+    public String getFactoryLocation() {
+        return factoryLocation;
     }
 
     public ChickenSoup makeChickenSoup() {
@@ -37,9 +38,5 @@ class SoupFactoryMethod {
 
     public VegetableSoup makeVegetableSoup() {
         return new VegetableSoup();
-    }
-
-    public String makeBuffetName() {
-        return "Soup Buffet";
     }
 }
