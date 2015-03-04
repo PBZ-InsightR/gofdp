@@ -1,0 +1,11 @@
+package com.gofdp.responsibility.proxy;
+
+class SampleLauncher {
+    public static void main(String[] args) {
+        System.out.println("TestProxy: instantiating PotOfTeaProxy");
+        PotOfTeaInterface potOfTea = new PotOfTeaProxy();
+        System.out.println(" ");
+        System.out.println("TestProxy: pouring tea");
+        potOfTea.pourTea();
+    }
+}
