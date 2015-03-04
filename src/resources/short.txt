@@ -1,0 +1,89 @@
+
+#########################
+######  INTERFACE   #####
+
+ADAPTER = WRAPPER
+provide the interface that the "client" required using a class with a different "interface"
+
+FACADE
+One class has a method that performs a complex process calling several other classes
+
+COMPOSITE
+Assemble groups of objects with the same signature
+
+BRIDGE
+An abstraction and implementation are in different class hierarchies.
+
+
+#########################
+####  RESPONSIBILITY  ###
+
+OBSERVER
+a (1,n) link between an object that notifies others objects that it's changing
+
+MEDIATOR
+encapsulates the way objects interact with each other without creating a concrete link
+
+PROXY
+One class controls the "creation of" and "access to" objects in another class
+
+CHAIN OF RESPONSIBILITY
+A method called in one class will move up a class hierarchy until a method is found that can properly handle the call.
+
+FLYWEIGHT
+The reusable and variable parts of a class are split into two classes to save resources.
+
+
+#########################
+#####  CONSTRUCTION  ####
+
+SINGLETON
+Ensure that a class could be instantiates only once !
+
+BUILDER
+extract the instantiation algorithm from the object to the builder
+
+FACTORY METHOD
+permit to another coder to define the instantiation interface while keeping the choice on which class to instantiate (iterator)
+
+ABSTRACT FACTORY = KIT
+An abstract factory has sets of methods to make families of various objects.
+
+PROTOTYPE
+Make new objects by cloning the objects which you set as prototypes
+
+MEMENTO = TOKEN
+One object stores another objects state.
+
+
+#########################
+#####  OPERATIONS   #####
+
+TEMPLATE = "Don't call us, we'll call you"
+An abstract class defines various methods, and has one non-overridden method which calls the various methods.
+
+STATE
+distributing the logic related on the state of the object through different classes each representing a specific state
+
+STRATEGY = POLICY
+An object controls which of a family of methods is called. Each method is in its' own class that extends a common base class.
+
+COMMAND = ACTION = TRANSACTION
+An object encapsulates everything needed to execute a method in another object.
+
+INTERPRETER
+Define a macro language and syntax, parsing input into objects which perform the correct opertaions.
+
+
+#########################
+######  EXTENSIONS  #####
+
+DECORATOR
+One class takes in another class, both of which extend the same abstract class, and adds functionality.
+
+ITERATOR = CURSOR
+One object can traverse all of the elements of another object.
+
+VISITOR
+One or more related classes have the same method, which calls a method specific for themselves in another class.
+
