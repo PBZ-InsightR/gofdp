@@ -1,0 +1,50 @@
+
+Software application conception remains link to the coders experience and coding-style :
+ * Oriented Object Principle (encapsulation, heritage and polymorphism) are not sufficient
+ * design patterns define high levels good practices but are not linked to generate a whole consistent and coherent
+
+=> but it exists som Design Principle to complete these tools
+
+The 3 main risks that counter the development activity :
+  RIGIDITY : each evolution could impact a large parts of the application
+  => development cost more and more
+  => because development on the software is expansive there are less and less developments on it
+  =>...
+
+  FRAGILITY : modifying a part of the software could generate some fail-over on another part
+  => the software is not robust and running activity is expansive
+  => because developing on the software is risky there xill be less and less evolution on it
+
+  IMMOBILITY : it sounds crazy to try to extract a part of the code to reuse it in another one
+  => the initial cost of new software remains high because each time you have to restart from scratch
+
+  ! Larger is the software, more visible are these problems !
+
+
+
+A GOOD DESIGN WILL TENDS TO BE :
+  ROBUST = changes don't introduce regressions !
+  EXTENSIBILITY = it's easy to add new features
+  REUSEABILITY = we could reuse some parts to construct another software
+
+3 PRACTICES TO INTEGRATE TO YOUR DESIGN
+
+1- OPEN-CLOSE PRINCIPLE (OCP)
+"EVERY MODULE (package, classes, methods) MUST BE OPEN TO EXTENSION BUT MUST BE CLOSED TO MODIFICATION !"
+  => the module must be extends to add a behavior not provided
+  => the extends are injected without modifying the module's code
+
+2- LISKOV SUBSTITUTION PRINCIPLE (LSP)
+The class of reference is an "interface" extracted from all sub-classes
+=! heritage is a factorization of common code
+
+The perfect substitution ?
+  It's not always possible so it means two options :
+  1- don't change the "interface" and use a "downcast" were necessary
+  => violation of the OCP
+  2- expend the interface to integrate uncommon signature which mean force sub-classes to implement some empty methods
+  => violation of the LSP
+
+  Prefer the first solution because the issue remains were it appears and is not diffused into the code.
+
+3- DEPENDENCY INVERSION PRINCIPLE (DIP)
