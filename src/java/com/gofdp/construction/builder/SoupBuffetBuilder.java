@@ -1,5 +1,7 @@
 package com.gofdp.construction.builder;
 
+import com.gofdp.construction.model.*;
+
 /**
  * adapted from http://www.fluffycat.com/
  */
@@ -17,30 +19,30 @@ abstract class SoupBuffetBuilder {
     public abstract void setSoupBuffetName();
 
     public void buildChickenSoup() {
-        soupBuffet.chickenSoup = new ChickenSoup();
+        soupBuffet.setChickenSoup(new ChickenSoup());
     }
 
     public void buildClamChowder() {
-        soupBuffet.clamChowder = new ClamChowder();
+        soupBuffet.setClamChowder(new ClamChowder());
     }
 
     public void buildFishChowder() {
-        soupBuffet.fishChowder = new FishChowder();
+        soupBuffet.setFishChowder(new FishChowder());
     }
 
     public void buildMinnestrone() {
-        soupBuffet.minnestrone = new Minnestrone();
+        soupBuffet.setMinnestrone(new Minnestrone());
     }
 
     public void buildPastaFazul() {
-        soupBuffet.pastaFazul = new PastaFazul();
+        soupBuffet.setPastaFazul(new PastaFazul());
     }
 
     public void buildTofuSoup() {
-        soupBuffet.tofuSoup = new TofuSoup();
+        soupBuffet.setTofuSoup(new TofuSoup());
     }
 
     public void buildVegetableSoup() {
-        soupBuffet.vegetableSoup = new VegetableSoup();
+        soupBuffet.setVegetableSoup(new VegetableSoup());
     }
 }

@@ -1,4 +1,4 @@
-package com.gofdp.construction.builder;
+package com.gofdp.construction.model;
 
 /**
  * adapted from http://www.fluffycat.com/
@@ -12,15 +12,6 @@ public class SoupBuffet {
     PastaFazul pastaFazul;
     TofuSoup tofuSoup;
     VegetableSoup vegetableSoup;
-
-
-    public String getSoupBuffetName() {
-        return soupBuffetName;
-    }
-
-    public void setSoupBuffetName(String soupBuffetNameIn) {
-        soupBuffetName = soupBuffetNameIn;
-    }
 
     public void setChickenSoup(ChickenSoup chickenSoupIn) {
         chickenSoup = chickenSoupIn;
@@ -48,6 +39,14 @@ public class SoupBuffet {
 
     public void setVegetableSoup(VegetableSoup vegetableSoupIn) {
         vegetableSoup = vegetableSoupIn;
+    }
+
+    public String getSoupBuffetName() {
+        return soupBuffetName;
+    }
+
+    public void setSoupBuffetName(String soupBuffetNameIn) {
+        soupBuffetName = soupBuffetNameIn;
     }
 
     public String getTodaysSoups() {

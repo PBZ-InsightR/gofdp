@@ -1,5 +1,7 @@
 package com.gofdp.construction.builder;
 
+import com.gofdp.construction.model.SoupBuffet;
+
 /**
  * adapted from http://www.fluffycat.com/
  */

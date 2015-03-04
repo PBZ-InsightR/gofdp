@@ -1,13 +1,13 @@
-package com.gofdp.construction.builder;
+package com.gofdp.construction.model;
 
 /**
  * adapted from http://www.fluffycat.com/
  */
-public class BostonClamChowder extends ClamChowder {
-    public BostonClamChowder() {
-        soupName = "QuahogChowder";
+public class BostonFishChowder extends FishChowder {
+    public BostonFishChowder() {
+        soupName = "ScrodFishChowder";
         soupIngredients.clear();
-        soupIngredients.add("1 Pound Fresh Quahogs");
+        soupIngredients.add("1 Pound Fresh Scrod");
         soupIngredients.add("1 cup corn");
         soupIngredients.add("1/2 cup heavy cream");
         soupIngredients.add("1/4 cup butter");

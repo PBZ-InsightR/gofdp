@@ -1,18 +1,21 @@
 package com.gofdp.construction.builder;
 
+import com.gofdp.construction.model.HonoluluClamChowder;
+import com.gofdp.construction.model.HonoluluFishChowder;
+
 /**
  * adapted from http://www.fluffycat.com/
  */
 class HonoluluSoupBuffetBuilder extends SoupBuffetBuilder {
     public void buildClamChowder() {
-        soupBuffet.clamChowder = new HonoluluClamChowder();
+        soupBuffet.setClamChowder(new HonoluluClamChowder());
     }
 
     public void buildFishChowder() {
-        soupBuffet.fishChowder = new HonoluluFishChowder();
+        soupBuffet.setFishChowder(new HonoluluFishChowder());
     }
 
     public void setSoupBuffetName() {
-        soupBuffet.soupBuffetName = "Honolulu Soup Buffet";
+        soupBuffet.setSoupBuffetName("Honolulu Soup Buffet");
     }
 }

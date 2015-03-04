@@ -1,9 +1,9 @@
 package com.gofdp.construction.abstractFactory;
 
-import com.gofdp.construction.builder.ClamChowder;
-import com.gofdp.construction.builder.FishChowder;
-import com.gofdp.construction.builder.HonoluluClamChowder;
-import com.gofdp.construction.builder.HonoluluFishChowder;
+import com.gofdp.construction.model.ClamChowder;
+import com.gofdp.construction.model.FishChowder;
+import com.gofdp.construction.model.HonoluluClamChowder;
+import com.gofdp.construction.model.HonoluluFishChowder;
 
 /**
  * adapted from http://www.fluffycat.com/

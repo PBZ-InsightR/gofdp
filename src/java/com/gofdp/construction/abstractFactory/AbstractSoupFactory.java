@@ -1,6 +1,6 @@
 package com.gofdp.construction.abstractFactory;
 
-import com.gofdp.construction.builder.*;
+import com.gofdp.construction.model.*;
 
 /**
  * adapted from http://www.fluffycat.com/

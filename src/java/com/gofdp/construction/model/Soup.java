@@ -1,4 +1,4 @@
-package com.gofdp.construction.builder;
+package com.gofdp.construction.model;
 
 import java.util.ArrayList;
 

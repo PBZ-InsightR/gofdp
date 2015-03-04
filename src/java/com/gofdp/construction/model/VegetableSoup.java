@@ -1,4 +1,4 @@
-package com.gofdp.construction.builder;
+package com.gofdp.construction.model;
 
 /**
  * adapted from http://www.fluffycat.com/

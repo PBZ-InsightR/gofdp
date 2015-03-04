@@ -1,6 +1,6 @@
 package com.gofdp.construction.abstractFactory;
 
-import com.gofdp.construction.builder.Soup;
+import com.gofdp.construction.model.Soup;
 
 import java.util.Calendar;
 

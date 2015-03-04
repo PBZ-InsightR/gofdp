@@ -1,6 +1,6 @@
 package com.gofdp.construction.factoryMethod;
 
-import com.gofdp.construction.builder.SoupBuffet;
+import com.gofdp.construction.model.SoupBuffet;
 
 /**
  * adapted from http://www.fluffycat.com/
