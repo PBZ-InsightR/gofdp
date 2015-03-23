@@ -1,7 +1,6 @@
 package com.gofdp.extensions.decorator;
 
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 public class ChaiDecorator extends Tea {
     private Tea teaToMakeChai;
